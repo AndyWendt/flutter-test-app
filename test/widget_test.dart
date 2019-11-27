@@ -9,5 +9,6 @@ void main() {
 
     // Verify that our counter starts at 0.
     expect(find.text('Hello World'), findsOneWidget);
+    expect(find.text('Welcome to Flutter'), findsOneWidget);
   });
 }
