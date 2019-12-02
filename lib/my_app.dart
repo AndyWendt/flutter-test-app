@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test_app/words.dart';
+import 'package:flutter_test_app/random_words.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
           title: Text('Welcome to Flutter'),
         ),
         body: Center(
-          child: Text(Words().generate()),
+          child: RandomWords(),
         ),
       ),
     );
